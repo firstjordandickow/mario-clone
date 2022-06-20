@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class EnemyScript : MonoBehaviour
 {
-    GameObject player;
+     GameObject player;
     Scene currentScene;
     private void Start()
     {
