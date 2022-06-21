@@ -17,4 +17,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_3.unity
     guid: 896cf1157c283fd4188deb6dcbebfb6e
+  - enabled: 1
+    path: Assets/Scenes/Game_Over.unity
+    guid: 05805732ce9fe3d4d94613e8c07c78de
+  - enabled: 1
+    path: Assets/Scenes/Level_1_Cutscene.unity
+    guid: 798828a547cc0a94dacc42729c66b255
+  - enabled: 1
+    path: Assets/Scenes/Level_2_Cutscene.unity
+    guid: b59b19ae6a8924a4194ba6a759cee3d0
+  - enabled: 1
+    path: Assets/Scenes/Level_3_Cutscene.unity
+    guid: 87d8d0e986200ee40a72e371e7c04004
+  - enabled: 1
+    path: Assets/Scenes/Win_Cutscene.unity
+    guid: 64bff518cce1ce240aa540896383cc60
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 0cce140d9d541b149a276c7e547f9a1d
   m_configObjects: {}

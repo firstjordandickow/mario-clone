@@ -13,11 +13,15 @@ public class WinScript : MonoBehaviour
         switch (SceneManager.GetActiveScene().name)
         {
             case "Level_1":
-                SceneManager.LoadScene("Level_2");
+                SceneManager.LoadScene("Level_2_Cutscene");
                 break;
 
             case "Level_2":
-                SceneManager.LoadScene("Level_3");
+                SceneManager.LoadScene("Level_3_Cutscene");
+                break;
+
+            case "Level_3":
+                SceneManager.LoadScene("Win_Cutscene");
                 break;
 
             default:
