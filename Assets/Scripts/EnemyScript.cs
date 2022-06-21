@@ -5,18 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class EnemyScript : MonoBehaviour
 {
-     GameObject player;
-    Scene currentScene;
+    GameObject player;
+    public string currentScene;
     private void Start()
     {
         player = GameObject.Find("Player");
+        currentScene = SceneManager.GetActiveScene().name;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject == player)
         {
-            currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+            
+            SceneManager.LoadScene("Game_Over");
         }
        
     }
